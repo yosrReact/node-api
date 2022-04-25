@@ -5,7 +5,7 @@ const connectDB = async () => {
   //  const url =
   //    "mongodb+srv://yosr:yosr@cluster0.hfl1c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   // const url = "mongodb://localhost:27017"
-  const uri = "mongodb://0.0.0.0:27017/"
+  const url = "mongodb://0.0.0.0:27017/"
   const conn = await mongoose.connect(url, {
     useNewUrlParser: true,
     useCreateIndex: true,
