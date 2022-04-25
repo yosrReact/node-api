@@ -47,7 +47,9 @@ app.use("/api/v1/auth", auth)
 app.use("/api/v1/users", users)
 app.use("/api/v1/contacts", contacts)
 app.use("/api/v1/tasks", tasks)
-
+app.get("/", (req, res) => {
+  res.send("Hi There")
+})
 app.use(errorHandler)
 
 const PORT = 5000
