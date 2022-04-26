@@ -23,6 +23,7 @@ services:
   api:
     build:
       dockerfile: Dockerfile
+      context: "./server"
     depends_on:
       - mongodb
     environment:
