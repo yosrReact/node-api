@@ -27,7 +27,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      DATABASE_URL: mongodb://mongodb:27017/test
+      DATABASE_URL: "mongodb://citizix:S3cret@mongodb:27017/test
   client:
     stdin_open: true
     environment:
