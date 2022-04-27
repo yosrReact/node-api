@@ -54,7 +54,7 @@ app.use(errorHandler)
 
 const PORT = 5000
 // Connect to database
-await connectDB()
+connectDB()
 const server = app.listen(PORT, async () => {
   console.log(
     `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold
