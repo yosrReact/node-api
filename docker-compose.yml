@@ -27,7 +27,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      DATABASE_URL: "mongodb://yosr:S3cret@mongodb:27017/dbv1"
+      DATABASE_URL: "mongodb://yosr:S3cret@mongodb:27017"
   client:
     stdin_open: true
     environment:
