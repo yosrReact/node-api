@@ -27,7 +27,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      DATABASE_URL: "mongodb://citiizix:S3cret@mongodb:27017/test?authSource=admin"
+      DATABASE_URL: "mongodb://citiizix:S3cret@mongodb:27017/test"
   client:
     stdin_open: true
     environment:
