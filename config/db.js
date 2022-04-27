@@ -4,7 +4,7 @@ const connectDB = async () => {
   // const url='mongodb+srv://yosr:yosr@cluster0.6kres.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
   //  const url =
   //    "mongodb+srv://yosr:yosr@cluster0.hfl1c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  const url = "mongodb://citiizix:S3cret@softprecision.website:27017"
+  // const url = "mongodb://citiizix:S3cret@softprecision.website:27017"
   const url = "mongodb://citiizix:S3cret@mongodb:27017"
   const conn = await mongoose.connect(url, {
     useNewUrlParser: true,
