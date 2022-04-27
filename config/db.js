@@ -8,7 +8,7 @@ const connectDB = async () => {
   const url = "mongodb://yosr:S3cret@mongodb:27017/dbv1"
   const conn = await mongoose.connect(url, {
     useNewUrlParser: true,
-    useCreateIndex: true,
+    // useCreateIndex: true,
     useFindAndModify: false,
     useUnifiedTopology: true,
   })
